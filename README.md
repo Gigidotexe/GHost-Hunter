@@ -14,7 +14,7 @@ GHost Hunter è uno script Python progettato per eseguire scansioni di rete alla
 
 ---
 
-## 🧱 Struttura del progetto
+## Struttura del progetto
 
 ```text
 ghost-hunter/
