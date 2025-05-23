@@ -52,3 +52,5 @@ Esempio di utilizzo:
 chmod +x setup.sh
 ./setup.sh
 ```
+se dovessi avere un errore `dos2unix setup.sh` dopo aver eseguito `setuo.sh` converti il file in formato Unix(LF) usando: <br>
+`dos2unix setup.sh`
