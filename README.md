@@ -52,5 +52,4 @@ Esempio di utilizzo:
 chmod +x setup.sh
 ./setup.sh
 ```
-se dovessi avere un errore `zsh: ./setup.sh: bad interpreter: /bin/bash^M: no such file or directory` dopo aver eseguito `setup.sh` converti il file in formato Unix(LF) usando: <br>
-`dos2unix setup.sh`
+se dovessi avere un errore `zsh: ./setup.sh: bad interpreter: /bin/bash^M: no such file or directory` dopo aver eseguito `setup.sh` converti il file in formato Unix(LF) usando `dos2unix setup.sh`
