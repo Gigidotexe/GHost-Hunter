@@ -1,17 +1,33 @@
 # GHost Hunter 
 <img src="https://github.com/Gigidotexe/Gigidotexe/blob/main/Img/PCPixel.png" height="100"/> <img src="https://github.com/Gigidotexe/Gigidotexe/blob/main/Img/haunter.png" height="100" />
-<br>GHost Hunter è uno scanner di rete Python che rileva dispositivi attivi all’interno di una rete locale, confronta i risultati con scansioni precedenti per identificare nuovi dispositivi, e salva i risultati in file di testo organizzati.
+GHost Hunter è uno script Python progettato per eseguire scansioni di rete alla ricerca di dispositivi attivi all’interno di una subnet specificata, confrontare i risultati con scansioni precedenti e segnalare eventuali nuovi dispositivi rilevati. È particolarmente utile per monitorare cambiamenti in una LAN, utile in ambito di sicurezza informatica e network administration.
 
 ---
 
 ## Caratteristiche principali
 
 - Scansione della rete tramite Nmap con rilevamento di host attivi.
-- Identificazione e visualizzazione di nuovi dispositivi rispetto alle scansioni precedenti.
 - Salvataggio dei risultati in file di testo ordinati per IP, hostname, router e MAC address.
-- Interfaccia a linea di comando con animazioni di caricamento e output colorato.
+-  Identificazione e visualizzazione di nuovi dispositivi rispetto alle scansioni precedenti.
 - Directory dedicata `scans` per memorizzare i file di scansione.
 - Supporto per subnet personalizzate (default: `192.168.1.0/24`).
+
+---
+
+## 🧱 Struttura del progetto
+
+```
+ghost-hunter/
+├── ascii/
+│   └── haunter.txt          # ASCII art mostrata all'avvio
+├── scans/
+│   └── ...                  # File di output delle scansioni
+├── setup/
+│   ├── setup.sh             # Script per configurare l’ambiente
+│   └── requirements.txt     # Librerie Python necessarie
+├── ghost_hunter.py          # Script principale
+└── README.md                # Questo file
+```
 
 ---
 
