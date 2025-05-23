@@ -51,3 +51,5 @@ Esempio di utilizzo:
 ```bash
 chmod +x setup.sh
 ./setup.sh
+```
+p.s. se `sertup.sh` dovesse dare l'errore `zsh: ./setup.sh: bad interpreter: /bin/bash^M: no such file or directory` usa `sed -i 's/\r//' setup.sh` per rimuovere i caratteri CR
