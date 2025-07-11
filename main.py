@@ -161,7 +161,7 @@ def main():
     txt_path = os.path.join(SCAN_DIR, f"scan_{target.replace('/','_')}.txt")
     save_txt(txt_path, hosts)
 
-    print(f"\n{Fore.GREEN}{txt_path}{Style.RESET_ALL}")
+    print(f"\n{Fore.GREEN}Results saved in: {txt_path}{Style.RESET_ALL}")
 
 if __name__ == "__main__":
     main()
