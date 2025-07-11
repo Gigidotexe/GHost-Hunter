@@ -1,5 +1,0 @@
-colorama
-pyfiglet
-psutil
-netifaces
-python-nmap
