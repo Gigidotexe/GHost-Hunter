@@ -11,7 +11,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # =============== CONFIGURATION
 SCAN_DIR = "scans"
-BANNER_FILE = "banner/haunter.txt"
+BANNER_FILE = "haunter.txt"
 DEFAULT_NET = "192.168.1.0/24"
 COMMON_PORTS = [22, 80, 443, 445, 3389]
 THREADS_ARP = 20
